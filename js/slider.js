@@ -5,6 +5,7 @@ function goToTab(targetIndex) {
   }
   navChildElems[targetIndex].classList.add("active");
 
+  // Change body color onClick
   const galleryChildElems = document.querySelector(".slider__wrapper").children;
   for (let i = 0; i < galleryChildElems.length; i++) {
     galleryChildElems[i].classList.remove("slide-animation");
