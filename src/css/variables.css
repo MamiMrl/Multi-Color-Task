@@ -1,0 +1,15 @@
+/* COLOR PALETTE */
+:root {
+  --main-white: rgb(229, 237, 246);
+  --nav-bg: rgba(255, 255, 255, 0.5);
+  --nav-color-1: rgb(56, 182, 230);
+  --nav-color-2: rgb(237, 84, 76);
+  --nav-color-3: rgb(234, 163, 25);
+  --nav-color-4: rgb(22, 181, 163);
+  --nav-color-5: rgb(68, 127, 202);
+  --gallery-color-1: rgba(56, 182, 230, 0.66);
+  --gallery-color-2: rgba(237, 84, 76, 0.66);
+  --gallery-color-3: rgba(234, 163, 25, 0.66);
+  --gallery-color-4: rgba(22, 181, 163, 0.66);
+  --gallery-color-5: rgba(68, 127, 202, 0.66);
+}

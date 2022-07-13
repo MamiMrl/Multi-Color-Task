@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MultiColor</title>
+
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="slider relative">
+      <header class="absolute top-0 left-0 w-full">
+        <nav class="container mx-auto flex justify-between">
+          <div class="nav__logo">
+            <a href="./">
+              <img src="/img/icons8-color-91.png" alt="brand logo" />
+            </a>
+          </div>
+          <div class="nav__links flex flex-col justify-center">
+            <ul id="navigation" class="flex border-2 gap-2 p-2">
+              <li class="nav-item active" onClick="goToTab(0)">nav1</li>
+              <li class="nav-item" onClick="goToTab(1)">nav2</li>
+              <li class="nav-item" onClick="goToTab(2)">nav3</li>
+              <li class="nav-item" onClick="goToTab(3)">nav4</li>
+              <li class="nav-item" onClick="goToTab(4)">nav5</li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <ul class="slider__wrapper">
+        <li class="color-1 active"></li>
+        <li class="color-2 move-right">2</li>
+        <li class="color-3 move-right">3</li>
+        <li class="color-4 move-right">4</li>
+        <li class="color-5 move-right">5</li>
+      </ul>
+    </div>
+    <script src="../js/slider.js" />
+  </body>
+</html>
