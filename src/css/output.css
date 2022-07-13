@@ -628,6 +628,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -673,6 +677,16 @@ video {
   padding-bottom: 10rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -683,4 +697,8 @@ video {
 
 .pt-40 {
   padding-top: 10rem;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
