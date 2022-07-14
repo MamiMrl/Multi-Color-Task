@@ -103,7 +103,6 @@ header {
 }
 
 .image-grid .card:hover {
-<<<<<<< HEAD
   background-color: #9e5406;
   transition: 0.7s;
   opacity: 1;
@@ -123,9 +122,10 @@ header {
   transition: 0.7s;
   font-size: 2.5rem;
   padding-bottom: 0;
-=======
-  opacity: 1;
->>>>>>> e4af79f6471c64d51d525c348f8b6db6b4c6fcfd
+}
+
+.slider__wrapper .page1-text p {
+  color: var(--main-white);
 }
 
 .color-1 {
@@ -143,3 +143,6 @@ header {
 .color-5 {
   background-color: var(--gallery-color-5);
 }
+
+/* LINE HEIGHT ILE BUTTONLARI YAPIŞTIRABİLİRSİN CONTAİNERA */
+/* container row col kullanilirsa gutter problemi olmaz */
