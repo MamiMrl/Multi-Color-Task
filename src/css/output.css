@@ -679,3 +679,11 @@ video {
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
