@@ -646,28 +646,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .py-5 {
@@ -680,10 +668,14 @@ video {
   padding-bottom: 10rem;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
